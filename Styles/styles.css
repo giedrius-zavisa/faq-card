@@ -12,8 +12,7 @@ html{
     --soft-blue:hsl(240, 73%, 65%);
     --very-dark-greyish-blue:hsl(237, 12%, 33%);
     --dark-grayish-blue:hsl(240, 6%, 50%);
-    --light-greyish-blue:hsl(240, 5%, 91%);
-    
+    --light-greyish-blue:hsl(240, 5%, 91%);    
 }
 
 
@@ -26,17 +25,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow:hidden;
 }
 
 /* Card styling*/
 
 .main-container {
-    background-image: url("../images/bg-pattern-desktop.svg");
-    background-position: left -565px top 60%, left -80px center;
-    background-repeat: no-repeat;
-    background-size: 100%, 50%;
-    overflow:visible;
+    overflow:hidden;
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -112,14 +106,21 @@ h1 {
 
 /* Image styling */
 
+.faq-background {
+    position:absolute;
+    width: 35%;
+    top:15%;
+    left: 11rem;
+}
+
 .faq-picture {
+    z-index: 1;
     position:relative;
-    top:initial;
     left:-50px;
 }
 
 .faq-box-image {
-    overflow:visible;
+    z-index: 1;
     display:inline;
     position:absolute;
     top:320px;
@@ -141,20 +142,37 @@ h1 {
 
 
      .main-container {
-        background-image: url("../images/bg-pattern-mobile.svg");
         flex-direction: column;
+        overflow:visible;
      }
 
      .faq-container {
          width: 90%;
+         padding: 0 1.2rem;
+         margin: 0;
+         transform: translateY(-7rem);
+     }
+
+
+    .faq-background {
+        position: absolute;
+        transform: translateY(8rem);
+        left: 8rem;
+        width: 60%;
+    }
+
+     .faq-illustration {
+         margin: 0;
+         padding: 0;       
      }
 
      .faq-picture {
-         display:absolute;
-         top:-8rem;
-         left:46%;
-         z-index: 1;
-         transform: translateX(-50%);
+         position:relative;
+         display:inline;
+         width: 200px;
+         height: auto;
+         left: 1rem;
+         transform: translateY(-8rem);
      }
 
      .faq-box-image {
