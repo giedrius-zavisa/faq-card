@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/faqaccordioncard-JowKVRf8i)
 - [Live site URL](https://sypnotick.github.io/faq-card/)
 
 ## My process
