@@ -120,11 +120,10 @@ h1 {
 }
 
 .faq-box-image {
-    z-index: 1;
-    display:inline;
     position:absolute;
-    top:320px;
-    left: 180px;
+    z-index: 1;
+    top:43%;
+    left: 16rem;
 }
 
 /* Footer styling */
@@ -138,33 +137,30 @@ h1 {
     color: hsl(228, 45%, 44%);
  }
 
+/* Responsive design*/
+
  @media(max-width:500px) {
 
 
      .main-container {
         flex-direction: column;
         overflow:visible;
+        height: 80vw;
      }
 
      .faq-container {
-         width: 90%;
+         width: 95%;
          padding: 0 1.2rem;
-         margin: 0;
          transform: translateY(-7rem);
      }
 
 
     .faq-background {
         position: absolute;
-        transform: translateY(8rem);
+        top: 16%;
         left: 8rem;
         width: 60%;
     }
-
-     .faq-illustration {
-         margin: 0;
-         padding: 0;       
-     }
 
      .faq-picture {
          position:relative;
@@ -185,11 +181,12 @@ h1 {
      }
 
      .faq-question-text {
-         font-size: 0.9rem;
+         font-size: 1rem;
      }
 
      .faq-answer-text {
-         font-size: 0.8rem;
+         font-size: 0.9rem;
+         font-weight: 400;
      }
  
  }
