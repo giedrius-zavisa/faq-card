@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Sypnotick-Giedrius](https://sypnotick.github.io/faq-card/)
+- Frontend Mentor - [@Sypnotick-Giedrius](https://www.frontendmentor.io/profile/Sypnotick)
